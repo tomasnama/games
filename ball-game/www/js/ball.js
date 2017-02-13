@@ -39,8 +39,8 @@ var app = {
 
         function update() {
             var factorDificultad = (300 + (dificultad * 100));
-            bola.body.velocity.x = (velocidadY * factorDificultad);
-            bola.body.velocity.y = (velocidadX * (-1 * factorDificultad));
+            bola.body.velocity.y = (velocidadY * factorDificultad);
+            bola.body.velocity.x = (velocidadX * (-1 * factorDificultad));
 
             game.physics.arcade.overlap(bola, objetivo, app.incrementaPutuacion, null, this);
         }
