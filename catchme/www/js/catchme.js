@@ -6,6 +6,7 @@ var app = {
         puntuacion = 0;
         alto = document.documentElement.clientHeight;
         ancho = document.documentElement.clientWidth;
+        screen.lockOrientation('landscape');
         app.iniciaJuego();
         app.vigilaSensores();
     },

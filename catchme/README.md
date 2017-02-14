@@ -1,14 +1,11 @@
-# A Blank PhoneGap App
+# Catchme
+
+PhoneGap app to test the maps on cordova plugin amd Phaser.
 
 ## Usage
 
 ### PhoneGap CLI
 
-    $ phonegap create my-app --template blank
+    phonegap serve
 
-### Desktop
-
-In your browser, open the file:
-
-    /www/index.html
-
+[PhoneGap Developer App](http://docs.phonegap.com/getting-started/2-install-mobile-app/)

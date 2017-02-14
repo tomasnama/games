@@ -9,6 +9,9 @@
     "installed_plugins": {
         "cordova-plugin-device-motion": {
             "PACKAGE_NAME": "com.tomasapp.catchme"
+        },
+        "cordova-plugin-screen-orientation": {
+            "PACKAGE_NAME": "com.tomasapp.catchme"
         }
     },
     "dependent_plugins": {}
